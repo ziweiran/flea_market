@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Available Items for Trade!</title>
+
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <h1>Available Items for Trade!</h1>
+    <h2>Product list</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Description</th>
+          <th>Price</th>
+          <th>School</th>
+          <th>Available from</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr th:each="items : ${items}">
+          <td th:text="${items.name}"></td>
+          <td th:text="${items.price}"></td>
+          <td th:text="${items.school_name}"></td>
+          <td th:text="${items.location}"></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
