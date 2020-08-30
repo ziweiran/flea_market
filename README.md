@@ -7,11 +7,11 @@
 This online flea market is not ONLY about online trasaction or shopping, instead, I hope this can provide a platform to meet fellow students, so all trasactions happen face to face. 
 Inspired by a post on our #community channel on slack (a student passed her textbook after using for a semester to someone who needs it and also lives in the same area), I think passing and selling your used textbooks can be a great way to meet fellow students. It is not only true for MCIT program but for all programs and schools, as we are all social distancing in the pandenmic, a traditional on-campus flea market is no longer feasible, therefore I came up with this platform, on which each transaction only takes 2 people to complete, so it's easy to SOCIAL and SOCIAL DISTANCING.
 
-Include the link to your Devpost project page here: [Devpost](https://...)
+Include the link to your Devpost project page here: [Devpost](https://devpost.com/software/mcit-online-flea-market)
 
 ### Authors
 
-Ziwei Ran - ziweiran – ziweiran@seas.upenn.edu – [GitHub](https://github.com/user_name)
+Ziwei Ran - ziweiran – ziweiran@seas.upenn.edu – [GitHub](https://github.com/ziweiran)
 
 
 ## Usage
