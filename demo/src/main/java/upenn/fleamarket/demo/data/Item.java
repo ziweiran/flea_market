@@ -15,6 +15,7 @@ public class Item {
   protected String price;
   protected String slack = "";
   protected String condition;
+  protected String image = "assets/images/default_3.jpg";
 
   public Item(String name, String school_name, String location, String email, String price, String condition) {
     this.condition = condition;
@@ -101,6 +102,22 @@ public class Item {
 
   public void setCondition(String condition) {
     this.condition = condition;
+  }
+
+  public String getId() {
+    return id;
+  }
+
+  public void setId(String id) {
+    this.id = id;
+  }
+
+  public String getImage() {
+    return image;
+  }
+
+  public void setImage(String image) {
+    this.image = image;
   }
 
 }

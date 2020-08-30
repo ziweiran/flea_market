@@ -13,7 +13,7 @@
       rel="stylesheet"
     />
 
-    <title>MCIT Online Flea Market</title>
+    <title>About US</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -39,8 +39,8 @@
     <header class="">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a th:onclick="window.location.href='/'" class="navbar-brand"
-            ><h2>Flea <em>Market</em></h2></a
+          <a class="navbar-brand" th:onclick="window.location.href='/'"
+            ><h2>FLEA <em>MARKET</em></h2></a
           >
           <button
             class="navbar-toggler"
@@ -55,17 +55,23 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a th:onclick="window.location.href='/'" class="nav-link"
+              <li class="nav-item">
+                <a class="nav-link" th:onclick="window.location.href='/'"
                   >Home
                   <span class="sr-only">(current)</span>
                 </a>
               </li>
               <li class="nav-item">
-                <a th:onclick="window.location.href='/products'"class="nav-link">All Items</a>
+                <a
+                  class="nav-link"
+                  th:onclick="window.location.href='/products'"
+                  >All Items</a
+                >
               </li>
-              <li class="nav-item">
-                <a th:onclick="window.location.href='/aboutus'" class="nav-link">About Us</a>
+              <li class="nav-item active">
+                <a class="nav-link" th:onclick="window.location.href='/aboutus'"
+                  >About Us</a
+                >
               </li>
             </ul>
           </div>
@@ -74,94 +80,102 @@
     </header>
 
     <!-- Page Content -->
-    <!-- Banner Starts Here -->
-    <div class="banner header-text">
-      <div class="owl-banner owl-carousel">
-        <div class="banner-item-01">
-          <div class="text-content">
-            <h4>WELCOME</h4>
-            <h2>MCIT ONLINE FLEA MARKET</h2>
-          </div>
-        </div>
-        <div class="banner-item-02">
-          <div class="text-content">
-            <h4>Back To School Essentials</h4>
-            <h2>Get your best products</h2>
-          </div>
-        </div>
-        <div class="banner-item-03">
-          <div class="text-content">
-            <h4>Great Opportunity</h4>
-            <h2>Meet New Friends</h2>
+    <div class="page-heading about-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-content">
+              <h2>ABOUT US</h2>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Banner Ends Here -->
 
-    <div class="latest-products">
+    <div class="best-features about-features">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>Latest Items</h2>
-              <a th:onclick="window.location.href='/products'"
-                >view all <i class="fa fa-angle-right"></i
-              ></a>
-            </div>
-          </div>
-          <th:block th:each="item,itemStat : ${items}" th:unless="${itemStat.index > 5}">
-          <div class="col-md-4">
-            <div class="product-item">
-              <a th:href="'/item/' + ${item.id}"><img th:src="@{${item.image}}" alt="" /></a>
-              <div class="down-content">
-                <a th:href="'/item/' + ${item.id}" style="display: inline-block; width: 80%;"><h4 th:text="${item.name}">variables</h4></a>
-                <h6 th:text="${#numbers.formatCurrency(item.price)}">$25.75</h6>
-                <p th:text="${item.description}">
-                  Lorem ipsume dolor sit amet
-                </p>
-                <ul class="stars">
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                  <li><i class="fa fa-star"></i></li>
-                </ul>
-                <span th:text="${item.school_name}"> </span>
-              </div>
-            </div>
-          </div>
-          <!--/*-->
-          <!--*/-->
-        </div>
-      </div>
-    </div>
-  </th:block>
-    <div class="best-features">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-heading">
-              <h2>About MCIT ONLINE FLEA MARKET</h2>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="left-content">
-              <h4>Looking to sell?</h4>
-              <p>
-                We need the following infomation of the item you are selling-
-              </p>
-              <ul class="featured-list">
-                <li><a href="#">name of the textbook/product</a></li>
-                <li><a href="#">your upenn school name</a></li>
-                <li><a href="#">your location, eg. New York</a></li>
-                <li><a href="#">your upenn Email</a></li>
-                <li><a href="#">condition/price of your item </a></li>
-              </ul>
-              <a th:onclick="window.location.href='/sell'" class="filled-button">I wanna sell</a>
+              <h2>Our Background</h2>
             </div>
           </div>
           <div class="col-md-6">
             <div class="right-image">
-              <img src="assets/images/book_tulips.jpg" alt="" />
+              <img src="assets/images/aboutus1.jpg" alt="" />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="left-content">
+              <h4>Who we are &amp; What we do?</h4>
+              <p style="font-size: 100%">
+                This online flea market is not about online trasaction or
+                shopping, instead, I hope this can provide a platform to meet
+                fellow students, so all trasaction happens in person. Inspired
+                by a post on our #community channel on slack, I think passing
+                and selling your used textbooks can be a great way to meet
+                fellow students. It is not only true for MCIT program but for
+                all programs and schools, as we are all social distancing in
+                this pandenmic, a traditional on-campus flea market is no longer
+                feasible, therefore I came up with this platform, on which each
+                transaction only takes 2 people to complete, so it's easy to
+                social and social distancing.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="team-members">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Our Team Members</h2>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="team-member">
+              <div class="thumb-container">
+                <img src="assets/images/team_01.jpg" alt="" />
+              </div>
+              <div class="down-content">
+                <h4>Ziwei Ran</h4>
+                <span>Founder</span>
+                <p>2020 Spring MCIT Online cohort</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="happy-clients">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Happy Partners</h2>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="owl-clients owl-carousel">
+              <div class="client-item">
+                <img src="assets/images/client-01.png" alt="1" />
+              </div>
+
+              <div class="client-item">
+                <img src="assets/images/client-01.png" alt="2" />
+              </div>
+
+              <div class="client-item">
+                <img src="assets/images/client-01.png" alt="3" />
+              </div>
+
+              <div class="client-item">
+                <img src="assets/images/client-01.png" alt="4" />
+              </div>
             </div>
           </div>
         </div>
