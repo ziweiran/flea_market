@@ -79,8 +79,5 @@ Use anyone else's code? Inspired by a particular project? List / link here.
 
 ### License
 
-If desired, add a section for your license. Reference sites like https://choosealicense.com can help you choose which license meets your needs.
-
-*For example:*
 
 >This package is licensed under the GNU General Public License v3.0 (<a href="https://choosealicense.com/licenses/gpl-3.0/" target="_blank">GPL-3</a>).
