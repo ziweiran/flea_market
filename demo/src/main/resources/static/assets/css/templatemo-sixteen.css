@@ -24,7 +24,9 @@ a {
 ul {
   padding: 0;
   margin: 0;
-  list-style: none;
+  list-style: square;
+  color: #727272;
+  font-size: 15px;
 }
 
 h1,
@@ -104,8 +106,6 @@ a.filled-button:hover {
   background-image: url(../images/book_back.jpg);
 }
 
-.sell-heading {
-}
 .page-heading {
   padding: 210px 0px 130px 0px;
   text-align: center;
@@ -507,7 +507,7 @@ header .navbar {
 }
 
 .best-features h4 {
-  font-size: 17px;
+  font-size: 20px;
   color: #1a6692;
   margin-bottom: 20px;
 }
@@ -816,7 +816,8 @@ footer .inner-content p a {
   color: #fff;
 }
 
-input.sell-not-required {
+input.sell-not-required,
+input.submit-email {
   display: block;
   width: 100%;
   font-size: 1rem;
@@ -828,8 +829,26 @@ input.sell-not-required {
   color: #495057;
   background-color: #fff;
   border: 1px solid #ced4da;
+  border-radius: 0.25rem;
 }
 
+/* input.submit-email {
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  border: 1px solid #ced4da;
+  font-size: 1rem;
+  padding-top: 0.375rem;
+  padding-right: 0.75rem;
+  padding-bottom: 0.375rem;
+  padding-left: 0.75rem;
+  line-height: 1rem;
+  border-radius: 0.25rem;
+} */
+input.submit-email:hover {
+  background-color: #7342c4;
+  color: #fff;
+}
 .accordion {
   margin-left: 30px;
 }

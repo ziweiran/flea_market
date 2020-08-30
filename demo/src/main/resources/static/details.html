@@ -39,7 +39,7 @@
     <header class="">
       <nav class="navbar navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="index.html"
+          <a class="navbar-brand" th:onclick="window.location.href='/'"
             ><h2>Flea <em>market</em></h2></a
           >
           <button
@@ -135,7 +135,12 @@
           </div>
           <div class="col-md-8">
             <div class="contact-form">
-              <form id="contact" action="" method="post">
+              <form
+                action=""
+                th:action="'/item/' + @{${item.id}}"
+                th:object="${email}"
+                method="post"
+              >
                 <div class="row">
                   <div class="col-lg-12 col-md-12 col-sm-12">
                     <fieldset>
@@ -146,6 +151,7 @@
                         id="name"
                         placeholder="Full Name"
                         required=""
+                        th:field="*{senderName}"
                       />
                     </fieldset>
                   </div>
@@ -158,6 +164,7 @@
                         id="email"
                         placeholder="E-Mail Address"
                         required="true"
+                        th:field="*{senderAddress}"
                       />
                     </fieldset>
                   </div>
@@ -170,6 +177,7 @@
                         id="subject"
                         placeholder="Subject"
                         required=""
+                        th:field="*{subject}"
                       />
                     </fieldset>
                   </div>
@@ -182,18 +190,19 @@
                         id="message"
                         placeholder="Your Message"
                         required=""
+                        th:field="*{body}"
                       ></textarea>
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <button
-                        type="submit"
-                        id="form-submit"
-                        class="filled-button"
-                      >
-                        Send Message
-                      </button>
+                      <input
+                      class="submit-email"
+                      type="submit"
+                      value="Submit"
+                      id="form-submit"
+                    >
+                    </input>
                     </fieldset>
                   </div>
                 </div>
@@ -210,13 +219,8 @@
           <div class="col-md-12">
             <div class="inner-content">
               <p>
-                2020 Summer Project. - Design: Ziwei Ran with
-                <a
-                  rel="nofollow noopener"
-                  href="https://templatemo.com"
-                  target="_blank"
-                  >TemplateMo</a
-                >
+                2020 Summer Project. - Design: Ziwei Ran with TemplateMo
+                
               </p>
             </div>
           </div>

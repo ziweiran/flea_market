@@ -115,7 +115,7 @@
             <div class="product-item">
               <a th:href="'/item/' + ${item.id}"><img th:src="@{${item.image}}" alt="" /></a>
               <div class="down-content">
-                <a th:href="'/item/' + ${item.id}" style="display: inline-block; width: 80%;"><h4 th:text="${item.name}">variables</h4></a>
+                <a th:href="'/item/' + ${item.id}" style="display: inline-block; width: 77%;"><h4 th:text="${item.name}">variables</h4></a>
                 <h6 th:text="${#numbers.formatCurrency(item.price)}">$25.75</h6>
                 <p th:text="${item.description}">
                   Lorem ipsume dolor sit amet
@@ -146,15 +146,15 @@
           <div class="col-md-6">
             <div class="left-content">
               <h4>Looking to sell?</h4>
-              <p>
+              <p style = "font-size: medium;">
                 We need the following infomation of the item you are selling-
               </p>
               <ul class="featured-list">
-                <li><a href="#">name of the textbook/product</a></li>
-                <li><a href="#">your upenn school name</a></li>
-                <li><a href="#">your location, eg. New York</a></li>
-                <li><a href="#">your upenn Email</a></li>
-                <li><a href="#">condition/price of your item </a></li>
+                <li> name of the textbook/product</li>
+                <li> your upenn school name</li>
+                <li> your preferred meeting location, eg. Gryffindor Common Room</li>
+                <li> your Email</li>
+                <li> condition/price of your item </li>
               </ul>
               <a th:onclick="window.location.href='/sell'" class="filled-button">I wanna sell</a>
             </div>
@@ -174,13 +174,8 @@
           <div class="col-md-12">
             <div class="inner-content">
               <p>
-                2020 Summer Project. - Design: Ziwei Ran with
-                <a
-                  rel="nofollow noopener"
-                  href="https://templatemo.com"
-                  target="_blank"
-                  >TemplateMo</a
-                >
+                2020 Summer Project. - Design: Ziwei Ran with TemplateMo
+                
               </p>
             </div>
           </div>
