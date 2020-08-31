@@ -4,8 +4,11 @@
 
 ### Project summary
 
-Youtube demo video: 
+Youtube demo video: https://youtu.be/FiKS6F8g29s
+
+
 This project is based on Spring boot + Thymeleaf + MongoDB + Bootstrap + Javasript 
+
 
 This online flea market is not ONLY about online trasaction or shopping, instead, I hope this can provide a platform to meet fellow students, so all trasactions happen face to face. 
 Inspired by a post on our #community channel on slack (a student passed her textbook after using for a semester to someone who needs it and also lives in the same area), I think passing and selling your used textbooks can be a great way to meet fellow students. It is not only true for MCIT program but for all programs and schools, as we are all social distancing in the pandenmic, a traditional on-campus flea market is no longer feasible, therefore I came up with this platform, on which each transaction only takes 2 people to complete, so it's easy to SOCIAL and SOCIAL DISTANCING.
@@ -70,6 +73,8 @@ for this step, I recommend download MongoDB compass: https://www.mongodb.com/try
 java -jar target/gs-accessing-data-mongodb-0.1.0.jar
 ```
 #### final step: open up your browser and enter: localhost:8080
+
+a screeshot of one of the page from this web app:
 ![alt text](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/203/524/datas/original.png)
 
 Bravo!
