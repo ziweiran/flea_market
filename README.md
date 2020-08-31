@@ -85,7 +85,7 @@ java -jar demo-0.0.1-SNAPSHOT.jar
 ### final step: open up your browser and enter: localhost:8080
 
 a screeshot of one of the page from this web app:
-![alt text](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/203/524/datas/original.png)
+![alt text](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/001/203/506/datas/gallery.jpg)
 
 Bravo!
 
