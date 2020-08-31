@@ -58,7 +58,7 @@ $ mongod
 
 After installing MongoDB, you need in import data into it, otherwise, you'll have NO items to display on the webpage (the app will still work in this case, just empty pages).
 for this step, I recommend download MongoDB compass: https://www.mongodb.com/try/download/compass it's great visulization of database like this, and allows you to access/edit data directly: 
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fdocs.mongodb.com%2Fcompass%2Fmaster%2Fquery%2Fskip%2F&psig=AOvVaw05R0Dx83Y2R-koC7WjKgIv&ust=1598920683166000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjZiu2ZxOsCFQAAAAAdAAAAABAD)
+![alt text](https://docs.mongodb.com/compass/master/_images/query-skip-success.png)
 
 #### import data into your database:
  1.open MongoDB compass, after username and password, choose localhost:27017 and then connect.
