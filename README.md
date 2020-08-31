@@ -78,9 +78,9 @@ it's great visulization of database like this, and allows you to access/edit dat
  5. Done! your database now should filled with sample data. 
 
 
-### After installing and configuring Maven and MongoDB, you can download the .jar file from the target folder, and run on your command line like this: 
+#### After installing and configuring Maven and MongoDB, you can download the .jar file from [my releases](https://github.com/ziweiran/flea_market/releases/tag/v0.0.1), and run it on your command line like this: 
 ```
-java -jar target/gs-accessing-data-mongodb-0.1.0.jar
+java -jar demo-0.0.1-SNAPSHOT.jar
 ```
 ### final step: open up your browser and enter: localhost:8080
 
