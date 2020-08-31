@@ -1,0 +1,166 @@
+[{
+  "_id": {
+    "$oid": "5f4752f6606eaf272f0c1782"
+  },
+  "name": "Advanced Potion-Making",
+  "description": "a N.E.W.T.-level textbook used in Potions class; students who achieved an 'Outstanding' or an 'Exceeds Expectation' on their Ordinary Wizarding Level",
+  "school_name": "Gryffindor",
+  "location": "Gryffindor Common Room",
+  "email": "echoran365@gmail.com",
+  "phone": "",
+  "price": "0",
+  "slack": "",
+  "condition": "heavily used",
+  "image": "assets/images/advanced.jpg",
+  "_class": "upenn.fleamarket.demo.data.Item"
+},{
+  "_id": {
+    "$oid": "5f4753d45a5b357bf2ebbdab"
+  },
+  "name": "Advanced Potion-Making",
+  "description": "This copy originally cost 9 gallleons. Selling it for 2 Galleons",
+  "school_name": "Ravenclaw",
+  "location": "Gryffindor Common Room",
+  "email": "echoran365@gmail.com",
+  "phone": "",
+  "price": "2.5",
+  "slack": "",
+  "image": "assets/images/advanced_2.jpg",
+  "condition": "used, marks and notes",
+  "_class": "upenn.fleamarket.demo.data.Item"
+},{
+  "_id": {
+    "$oid": "5f47621a9bf0143d6a3d75fb"
+  },
+  "name": "Magical Theory",
+  "description": "Magical Theory written by Adalbert Waffling is a required textbook for first year at Hogwarts.It is available at the Hogwarts Library, or for sale at Flourish and Blotts bookstore for two Galleons.",
+  "school_name": "Hufflepuff",
+  "location": "Gryffindor Common Room",
+  "email": "echoran365@gmail.com",
+  "phone": "",
+  "price": "1.5",
+  "slack": "",
+  "condition": "new",
+  "image": "assets/images/default_3.jpg",
+  "_class": "upenn.fleamarket.demo.data.Item"
+},{
+  "_id": {
+    "$oid": "5f476d473ef4255f9386ea56"
+  },
+  "name": "A History of Magic",
+  "description": "A required text for all Hogwarts students for the History of Magic class taught by Professor Binns. Never liked this class, selling it for 4 Galleons.",
+  "school_name": "Slytherin",
+  "location": "Dark Forest",
+  "email": "echoran365@gmail.com",
+  "phone": "",
+  "price": "4",
+  "slack": "",
+  "condition": "like new",
+  "image": "assets/images/history_old.jpg",
+  "_class": "upenn.fleamarket.demo.data.Item"
+},{
+  "_id": {
+    "$oid": "5f497a601c5fe3208ccbd797"
+  },
+  "name": "The Care Of Magical Creatures Companion Guide",
+  "description": "The required textbook for Transfiguration classes for 1st and 2nd year students at Hogwarts. New copy costs 2 galleon.",
+  "school_name": "Gryffindor",
+  "location": "Common Room, behind the Fat Lady portrait",
+  "email": "echoran365@gmail.com",
+  "phone": "",
+  "price": "0.5",
+  "image": "assets/images/pages.jpg",
+  "slack": "",
+  "condition": "used, pages missing",
+  "_class": "upenn.fleamarket.demo.data.Item"
+},{
+  "_id": {
+    "$oid": "5f499bc040874d4b87b5c401"
+  },
+  "name": "A Beginner's Guide to Transfiguration",
+  "description": "This textbook was used as an introduction to Transfiguration, it contained basic transformation spells. A copy of this book costs 1 Galleon at Flourish and Blotts",
+  "school_name": "Gryffindor",
+  "location": "Hogwarts Dinning Hall",
+  "email": "echoran365@gmail.com",
+  "phone": "",
+  "price": "0.3",
+  "slack": "",
+  "condition": "used, okay",
+  "image": "assets/images/trans.jpg",
+  "_class": "upenn.fleamarket.demo.data.Item"
+},{
+  "_id": {
+    "$oid": "5f49ada840874d4b87b5c407"
+  },
+  "name": "Magical Boots",
+  "description": "A pair of magical boots once worn by Victor Krum. Start selling at 10.5 Galleons. Price may increse.",
+  "school_name": "Durmstrang Institute",
+  "location": "Library of Durmstrang Institute",
+  "email": "echoran365@gmail.com",
+  "phone": "",
+  "price": "10.3",
+  "slack": "",
+  "condition": "old",
+  "image": "assets/images/product_01.jpg",
+  "_class": "upenn.fleamarket.demo.data.Item"
+},{
+  "_id": {
+    "$oid": "5f49ada940874d4b87b5c408"
+  },
+  "name": "Gift from Hogsmeade Village",
+  "description": "A gift from my ex. Bought from Hogsmeade during Chirstmas. It will make your room snow.",
+  "school_name": "Ravenclaw",
+  "location": "Ravenclaw Common Room",
+  "email": "echoran365@gmail.com",
+  "phone": "",
+  "price": "0",
+  "slack": "",
+  "condition": "new",
+  "image": "assets/images/product_06.jpg",
+  "_class": "upenn.fleamarket.demo.data.Item"
+},{
+  "_id": {
+    "$oid": "5f49b3dc6daed5025da19911"
+  },
+  "name": "Winter Beanie",
+  "description": "A beanie keeps you warm in northern lands. Moving to south, selling at 2 galleons. ",
+  "school_name": "Durmstrang Institute",
+  "location": "Library of Durmstrang Institute",
+  "email": "echoran365@gmail.com",
+  "phone": "",
+  "price": "2",
+  "slack": "",
+  "condition": "like new",
+  "image": "assets/images/product_02.jpg",
+  "_class": "upenn.fleamarket.demo.data.Item"
+},{
+  "_id": {
+    "$oid": "5f4b03c0dcd1f557d4f93227"
+  },
+  "name": "Notes for CIT 594",
+  "description": "Printed notes and all study materials for CIT 594 Data Structure and software design. Taken during 2020 summer.",
+  "school_name": "UPenn School of Engineering",
+  "location": "Palo Alto Shopping Center",
+  "email": "jl7338@nyu.edu",
+  "phone": "",
+  "price": "1",
+  "slack": "",
+  "condition": "Used, with comments and marks",
+  "image": "assets/images/notes.jpg",
+  "_class": "upenn.fleamarket.demo.data.Item"
+},{
+  "_id": {
+    "$oid": "5f4b63cd3c25a01d8323e482"
+  },
+  "name": "Introduction to Computing Systems",
+  "description": "This is the required textbook for CIT 593:Introduction to Computer Systems, instructed by Dr. Thomas Farmer. 2nd Edition.",
+  "school_name": "UPenn School of Engineering",
+  "location": "Palo Alto Shopping Center",
+  "email": "ziweiran@seas.upenn.edu",
+  "phone": "",
+  "price": "20",
+  "slack": "ziwei",
+  "condition": "like new",
+  "image": "assets/images/default_2.jpg",
+  "_class": "upenn.fleamarket.demo.data.Item"
+}]
