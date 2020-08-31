@@ -57,14 +57,24 @@ $ mongod
 ### Deployment
 
 After installing MongoDB, you need in import data into it, otherwise, you'll have NO items to display on the webpage (the app will still work in this case, just empty pages).
-for this step, I recommend download MongoDB compass: https://www.mongodb.com/try/download/compass it's great visulization of database like this, and allows you to access/edit data directly: 
+
+
+for this step, **I recommend download MongoDB compass**: https://www.mongodb.com/try/download/compass 
+
+it's great visulization of database like this, and allows you to access/edit data directly: 
+
+
 ![alt text](https://docs.mongodb.com/compass/master/_images/query-skip-success.png)
 
 #### import data into your database:
  1.open MongoDB compass, after username and password, choose localhost:27017 and then connect.
+ 
  2. Now you're officially in your database. Click on "CREATE DATABASE" green button to create a database called "fleamarket". **please use the exact same database name, case sensetive**.
+ 
  3. Click on the fleamarket database you just created, then click on "CREATE COLLECTION" to create collection called "item".**please use the exact same database name, case sensetive**. Open item, now your database should have a header **fleamarket.item**. 
+ 
  4. Click on "ADD DATA, import file", select JSON, then upload the file "data.json" from git repository. (in same folder with README)
+ 
  5. Done! your database now should filled with sample data. 
 
 
