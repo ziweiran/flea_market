@@ -22,8 +22,7 @@ Ziwei Ran - ziweiran – ziweiran@seas.upenn.edu – [GitHub](https://github.com
 
 ## Usage
 
-This section walks a prospective user through the process of installing and running the project on their local machine. The more detailed and the more accurate, the better. User-friendly instructions will entice prospective users (including judges) to engage more deeply with your project, which could improve your hackathon score.
-
+This section walks a prospective user through the process of installing and running the project on their local machine. 
 ### Prerequisites
 
 What prerequisites must be installed in order to run your project, and how do you install them?
